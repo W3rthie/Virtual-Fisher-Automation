@@ -1,3 +1,6 @@
+// Open Virtual Fisher, use the /fish command at least once, then run this code in the console
+// To quit paste: "fisherAutomation = false;" into the console or switch to a dm that hasnt ran the /fish command before
+
 // Variables
 let fisherAutomation = false;
 
