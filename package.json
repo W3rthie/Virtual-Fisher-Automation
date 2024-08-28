@@ -1,12 +1,12 @@
 {
   "name": "fish",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automates the Virtual Fisher discord bot",
   "main": "index.js",
   "scripts": {
     "start": "node main.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "W3rthie",
   "license": "ISC"
 }
