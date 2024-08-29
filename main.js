@@ -24,7 +24,7 @@ async function main() {
          break
       }
 
-      await delay(4000);
+      await delay(5000);
    }
 
    console.log(`Fisher Automation quit after ${performance.now() - start}ms!`);
