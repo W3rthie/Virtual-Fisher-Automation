@@ -12,8 +12,6 @@ function delay(time) {
 async function main() {
    fisherAutomation = true;
 
-   const start = performance.now();
-
    while (fisherAutomation) {
       let fishAgain = Array.prototype.filter.call(document.querySelectorAll(".label_acadc1"), element => element.textContent == "Fish Again");
 
@@ -26,8 +24,6 @@ async function main() {
 
       await delay(5000);
    }
-
-   console.log(`Fisher Automation quit after ${performance.now() - start}ms!`);
 }
 
 // Setup
